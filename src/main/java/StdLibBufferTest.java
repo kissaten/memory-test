@@ -12,9 +12,9 @@ public class StdLibBufferTest {
 
     while (true) {
       Thread.sleep(2000);
-       System.out.println(buffer == null ? "null" : buffer.toString());
+      System.out.println(buffer == null ? "null" : buffer.toString());
       buffer = null;
-      //System.gc();
+      System.gc();
     }
   }
 }

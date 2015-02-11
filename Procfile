@@ -1,2 +1,1 @@
-web:   java -jar target/app.jar
-test1: java -cp target/app.jar StdLibBufferTest
+std_lib_test: java -cp target/app.jar StdLibBufferTest

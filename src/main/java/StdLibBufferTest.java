@@ -13,7 +13,7 @@ public class StdLibBufferTest {
     while (true) {
       Thread.sleep(2000);
        System.out.println(buffer == null ? "null" : buffer.toString());
-      //buffer = null;
+      buffer = null;
       //System.gc();
     }
   }
